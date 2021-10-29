@@ -106,9 +106,6 @@ body {
     font-size: 25px;
     list-style-type:disc;
     text-decoration: none;
-    transform: translate(0px);
-    transition: all 0.3s;
-    z-index: -1;
 }
 
 #certificate-links li:hover {
