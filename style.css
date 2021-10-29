@@ -10,7 +10,7 @@ body {
 #navbar {
     width: 100%;
     height: 15vh;
-    background:  #1b2631;
+    background:#1c2833;
     position: fixed;
     display: flex;
     justify-content: flex-end;
@@ -38,11 +38,21 @@ body {
     align-items: center;
     width: 100%;
     height: 90vh;
-    padding-top: 150px;
+    padding-top: 100px;
+}
+
+#img-container {
+    width: 200px;
+    height: 200px;
+    background-image: url("SrikarProfilePic.jpeg");
+    background-position: center;
+    background-size: cover;
+    border: 10px solid #1b2631;
+    border-radius: 50%;
 }
 
 #welcome-section i {
-    font-size: 300px;
+    font-size: 180px;
     color: #1b2631;
 }
 
@@ -58,6 +68,52 @@ body {
     text-shadow: 2px 2px 15px black;
     font-size: 40px;
     font-family:Verdana, Tahoma, sans-serif;
+}
+
+#about {
+    width: 100%;
+    height: fit-content;
+    background: #242d39;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+    text-shadow: 2px 2px 15px black;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
+#about h1 {
+    font-size: 50px;
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#about p {
+    padding: 10px;
+    font-size: 30px;
+    color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:lighter;
+}
+
+#certificate-links li, #certificate-links li a{
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 25px;
+    list-style-type:disc;
+    text-decoration: none;
+    transform: translate(0px);
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+#certificate-links li:hover {
+    transform: translate(25px);
+    transition: all 0.3s;
 }
 
 #projects {
@@ -113,34 +169,34 @@ iframe {
     width: 100%;
     height: 100vh;
     background: #242d39;
-  }
+}
   
-  .contact-section {
+.contact-section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
     height: 90vh;
-  }
+}
   
-  .contact-section h1 {
+.contact-section h1 {
     font-size: 40px;
     padding-top: 80px; 
     color: whitesmoke;
     text-shadow: 2px 2px 10px black;
     text-align: center;
-  }
+}
   
-  .socialmedia {
+.socialmedia {
     width: 100%;
     height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .sm-item {
+.sm-item {
     display: inline-block;
     font-size: 30px;
     color: white;
@@ -149,24 +205,25 @@ iframe {
     cursor: pointer;
     transform: translate(0, 0);
     transition: transform 0.5s;
-  }
+}
   
-  .sm-item:hover {
+.sm-item:hover {
     transform: translate(0, 5px);
     transition: transform 0.4s 0.1s;
-  }
+}
   
-  span {
+span {
     font-size: 20px;
-  }
+}
   
-  #contact hr {
+#contact hr {
     height: 3px;
     background: #a82f3a;
     color: #a82f3a;
-  }
+    border: none;
+}
   
-  .footer-section {
+.footer-section {
     color: whitesmoke;
     padding: 10px
-  }
+}
