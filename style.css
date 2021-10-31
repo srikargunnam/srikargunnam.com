@@ -154,7 +154,8 @@ body {
   background: #353456;
 }
 
-iframe {
+.projectbox img {
+  width: 15.938rem;
   padding: 0.938rem;
   border: none;
   border-radius: 1.25rem;
@@ -283,19 +284,17 @@ span {
     font-size: 1.563rem;
   }
   .projectbox {
-    width: 15.625rem;
-    height: 10rem;
+    width: max-content;
+    height: max-content;
   }
-  iframe {
-    border-radius: 0.625rem;
-    padding: 0rem;
-    padding-bottom: 0rem;
+  .projectbox img {
+    border-radius: 0.938rem;
+    padding: 0.625rem;
     width: 13.375rem;
     height: 7.5rem;
   }
   .projectbox a {
-    padding: 0.188rem;
-    padding-top: 0rem;
+    padding: 0.313rem;
     font-size: 0.938rem;
   }
   .contact-section h1 {
