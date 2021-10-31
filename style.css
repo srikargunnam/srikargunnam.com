@@ -103,7 +103,7 @@ body {
 #certificate-links li,
 #certificate-links li a {
   padding: 0.625rem;
-  color: whitesmoke;
+  color: #b9770e;
   font-size: 1.125rem;
   list-style-type: disc;
   text-decoration: none;
@@ -326,11 +326,11 @@ span {
     font-size: 1.563rem;
   }
   #about p {
-    font-size: 1.125rem;
+    font-size: 0.938rem;
   }
   #certificate-links li,
   #certificate-links li a {
-    font-size: 0.938rem;
+    font-size: 0.875rem;
   }
   #certificate-links li:hover {
     transform: translate(0.313rem);
