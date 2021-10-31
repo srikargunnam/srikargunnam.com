@@ -37,7 +37,7 @@ body {
   justify-content: top;
   align-items: center;
   width: 100%;
-  min-height: fit-content;
+  min-height: 100vh;
   padding-top: 6.25rem;
 }
 
@@ -73,6 +73,7 @@ body {
 #about {
   width: 100%;
   height: fit-content;
+  min-height: 100vh;
   background: #242d39;
   display: flex;
   justify-content: flex-start;
@@ -80,7 +81,8 @@ body {
   padding-left: 3.125rem;
   text-shadow: 2px 2px 15px black;
   box-sizing: border-box;
-  padding-top: 6.25rem;
+  padding-top: 5rem;
+  padding-bottom: 3.125rem;
 }
 
 #about h1 {
