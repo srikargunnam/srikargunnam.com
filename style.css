@@ -283,14 +283,14 @@ span {
     font-size: 1.563rem;
   }
   .projectbox {
-    width: 12.5rem;
+    width: 15.625rem;
     height: 10rem;
   }
   iframe {
     border-radius: 0.625rem;
-    padding: 0.313rem;
+    padding: 0rem;
     padding-bottom: 0rem;
-    width: 11rem;
+    width: 13.375rem;
     height: 7.5rem;
   }
   .projectbox a {
