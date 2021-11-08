@@ -44,7 +44,7 @@ body {
 #img-container {
   min-width: 12.5rem;
   min-height: 12.5rem;
-  background-image: url("SrikarProfilePic.jpeg");
+  background-image: url("media/SrikarProfilePic.jpeg");
   background-position: center;
   background-size: cover;
   border: 0.625rem solid #1b2631;
