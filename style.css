@@ -21,14 +21,32 @@ body {
   display: flex;
   list-style-type: none;
   align-items: center;
+  border: none;
 }
 
 #navlist li a {
   color: whitesmoke;
   font-size: 1.25rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 1.875rem;
+  padding: 0.625rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 0.625rem;
+  font-weight: 600;
+}
+
+#navlist li:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
+#navlist li a:hover {
+  color: #1c2833;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.3s;
 }
 
 #welcome-section {
@@ -79,6 +97,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   padding-left: 3.125rem;
+  padding-right: 3.125rem;
   text-shadow: 2px 2px 15px black;
   box-sizing: border-box;
   padding-top: 5rem;
@@ -99,13 +118,19 @@ body {
   font-size: 1.25rem;
   color: whitesmoke;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: lighter;
+  font-weight: 100;
+  text-align: justify;
+}
+
+#about p a {
+  color: rgb(98, 174, 228);
+  text-decoration: none;
 }
 
 #certificate-links li,
 #certificate-links li a {
   padding: 0.625rem;
-  color: #b9770e;
+  color: rgb(98, 174, 228);
   font-size: 1.125rem;
   list-style-type: disc;
   text-decoration: none;
