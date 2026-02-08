@@ -26,7 +26,6 @@ export default function ExperienceSection() {
       transition: {
         delay: i * 0.2,
         duration: 0.6,
-        ease: [0.4, 0, 0.2, 1],
       },
     }),
   };
@@ -84,8 +83,8 @@ export default function ExperienceSection() {
                 October 2023 – Present
               </p>
               <div className="flex flex-wrap gap-3 items-center">
-                <motion.div 
-                  whileHover={{ scale: 1.2, rotate: 5 }} 
+                <motion.div
+                  whileHover={{ scale: 1.2, rotate: 5 }}
                   transition={{ duration: 0.2 }}
                   className="relative"
                   title="React Native"
@@ -93,8 +92,8 @@ export default function ExperienceSection() {
                   <SiReact className="text-accent text-2xl" />
                   <span className="absolute -top-1 -right-1 text-[8px] text-accent font-bold">RN</span>
                 </motion.div>
-                <motion.div 
-                  whileHover={{ scale: 1.2, rotate: -5 }} 
+                <motion.div
+                  whileHover={{ scale: 1.2, rotate: -5 }}
                   transition={{ duration: 0.2 }}
                   className="flex items-center justify-center w-8 h-8 rounded bg-accent/20 text-accent text-sm font-bold"
                   title="Expo"
@@ -176,8 +175,8 @@ export default function ExperienceSection() {
                 <motion.div whileHover={{ scale: 1.2, rotate: 5 }} transition={{ duration: 0.2 }}>
                   <SiReact className="text-accent text-2xl" title="React" />
                 </motion.div>
-                <motion.div 
-                  whileHover={{ scale: 1.2, rotate: -5 }} 
+                <motion.div
+                  whileHover={{ scale: 1.2, rotate: -5 }}
                   transition={{ duration: 0.2 }}
                   className="relative"
                   title="React Native"
