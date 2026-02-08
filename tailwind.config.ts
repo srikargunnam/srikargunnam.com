@@ -9,8 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'black': '#000000',
-        'white': '#ffffff',
+        // Dark backgrounds
+        'dark': '#0a0a0a',
+        'dark-2': '#111111',
+        'dark-3': '#1a1a1a',
+        // Light text
+        'light': '#ffffff',
+        'light-2': '#e5e5e5',
+        'light-3': '#a3a3a3',
+        // Accent color (subtle blue/cyan)
+        'accent': '#4a9eff',
+        'accent-hover': '#6bb0ff',
+        // Grey scale for hierarchy
         'grey-50': '#fafafa',
         'grey-100': '#f5f5f5',
         'grey-200': '#e5e5e5',
@@ -21,6 +31,25 @@ const config: Config = {
         'grey-700': '#404040',
         'grey-800': '#262626',
         'grey-900': '#171717',
+      },
+      animation: {
+        'fade-in': 'fadeIn 0.6s ease-in-out',
+        'slide-up': 'slideUp 0.6s ease-out',
+        'slide-down': 'slideDown 0.6s ease-out',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        slideUp: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        slideDown: {
+          '0%': { opacity: '0', transform: 'translateY(-20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
       },
       screens: {
         'sm': '30rem',   // 480px
