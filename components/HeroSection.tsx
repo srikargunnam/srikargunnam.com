@@ -48,7 +48,7 @@ export default function HeroSection() {
             y: 0,
             transition: {
                 duration: 0.6,
-                ease: "easeOut",
+                ease: [0.4, 0, 0.2, 1],
             },
         },
     };
@@ -60,7 +60,7 @@ export default function HeroSection() {
             scale: 1,
             transition: {
                 duration: 0.8,
-                ease: "easeOut",
+                ease: [0.4, 0, 0.2, 1],
             },
         },
     };
@@ -127,7 +127,7 @@ export default function HeroSection() {
                             transition={{
                                 duration: 2,
                                 repeat: Infinity,
-                                ease: "easeInOut",
+                                ease: [0.4, 0, 0.6, 1],
                             }}
                             className="absolute inset-0 rounded-full"
                         />
@@ -182,7 +182,7 @@ export default function HeroSection() {
             >
                 <motion.div
                     animate={{ y: [0, 10, 0] }}
-                    transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+                    transition={{ duration: 1.5, repeat: Infinity, ease: [0.4, 0, 0.6, 1] }}
                     className="flex flex-col items-center gap-2 text-light-3"
                 >
                     <span className="text-xs">Scroll</span>
